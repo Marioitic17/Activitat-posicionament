@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fons fosc */
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #333; /* Fons fosc */
+    color: #fff; /* Text blanc */
+    position: sticky;
+    top: 60px; /* Capçalera a sota */
+    z-index: 1;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+section {
+    background-color: #f5f5f5; /* Fons clar */
+    padding: 20px; /* Padding per separar les seccions de contingut */
+    margin-bottom: 20px; /* Margin inferior per separar les seccions */
+}
+
+footer {
+    background-color: #333; /* Fons fosc */
+    color: #fff; /* Text blanc */
+    text-align: center; /* Text centrat */
+    padding: 20px;
+}
